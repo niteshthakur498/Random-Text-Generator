@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Work+Sans:400,600,700');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  min-height: 100vh;
+}
+header{
+  font-family: Work Sans;
+  padding: 25px;
+  color:white;
+  background-color: rgb(68, 57, 168);
+}
+h1{
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+@media(max-width:1024px){
+  h1{
+    font-size: 15px;
+  }
+}
+
+footer{
+  font-family: Work Sans;
+  padding: 5px;
+  color:white;
+  background-color: rgb(103, 90, 216);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 10px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+header{
+  top:0;
+}
+footor{
+  bottom: 0px;
+}
+
+
+
+/*Form Styling*/
+
+main{
+  padding: 30px 40px 40px;
+}
+.paraInfo{
+  width: 100%;
+  padding:10px;
+  display: block;
+  position: relative;
+}
+form{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.formField{
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.formField label{
+  margin-right: 18px;
+  line-height: 25px;
+  vertical-align: middle;
+}
+input{
+  outline:none;
+  font-size: 15px;
+  padding:7px;
+  border: none;
+  border-bottom: 2px solid #000;
+}
+select{
+  width: 120px;
+  position: relative;
+  padding: 7px;
+  font-family: Work sans;
+}
+
+
+
+.output{
+  padding:30px;
+}

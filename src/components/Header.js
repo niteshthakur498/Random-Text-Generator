@@ -5,7 +5,7 @@ import React from 'react';
 function Header(){
   return(
     <header>
-        This is a Header
+        <h1>Random Text Generator</h1>
     </header>
   )
 }
